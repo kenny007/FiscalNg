@@ -3,31 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiscalNg.Api", "FiscalNg\FiscalNg.Api.csproj", "{0A3AD861-D62E-468D-9CC3-4323170AE6B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiscalNg.Api", "FiscalNg\FiscalNg.Api.csproj", "{0A3AD861-D62E-468D-9CC3-4323170AE6B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{C0707DA7-C54D-4E67-A9CA-DD52ECF184CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Logic Layer", "2. Business Logic Layer", "{C3A39414-08FB-4CFF-8CD1-D111A24FB9E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiscalNg.Core", "FiscalNg.Core\FiscalNg.Core.csproj", "{0FDF1D74-9E73-4FC0-85C6-9CA2096DB490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiscalNg.Core", "FiscalNg.Core\FiscalNg.Core.csproj", "{0FDF1D74-9E73-4FC0-85C6-9CA2096DB490}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Access Layer", "3. Data Access Layer", "{A104468C-FCCF-40F3-8F4C-5461A1359DE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiscalNg.Database", "FiscalNg.Database\FiscalNg.Database.csproj", "{340B2EC0-FD76-421D-AFBB-0771B8EA4DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiscalNg.Database", "FiscalNg.Database\FiscalNg.Database.csproj", "{340B2EC0-FD76-421D-AFBB-0771B8EA4DEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiscalNg.Data", "FiscalNg.Data\FiscalNg.Data.csproj", "{7D727D9E-F815-4733-86B5-CB0ECA9FCBA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiscalNg.Data", "FiscalNg.Data\FiscalNg.Data.csproj", "{7D727D9E-F815-4733-86B5-CB0ECA9FCBA5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Common", "4. Common", "{87C722D0-DC5A-40D0-9BBE-1EF22A782691}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiscalNg.Common", "FiscalNg.Common\FiscalNg.Common.csproj", "{1C50EFB9-6823-40C9-BC0C-761AC3568034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiscalNg.Common", "FiscalNg.Common\FiscalNg.Common.csproj", "{1C50EFB9-6823-40C9-BC0C-761AC3568034}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Tests", "5. Tests", "{6ED635FA-58FB-4070-9366-7BF6401D70D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiscalNg.Api.IntegrationTests", "FiscalNg.Api.IntegrationTests\FiscalNg.Api.IntegrationTests.csproj", "{567AB199-086A-42F8-8C31-2E91309B4567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiscalNg.Api.IntegrationTests", "FiscalNg.Api.IntegrationTests\FiscalNg.Api.IntegrationTests.csproj", "{567AB199-086A-42F8-8C31-2E91309B4567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiscalNg.Api.UnitTests", "FiscalNg.Api.UnitTests\FiscalNg.Api.UnitTests.csproj", "{DE02FEEB-E75B-4DC4-8C1D-A2943C2F31CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiscalNg.Api.UnitTests", "FiscalNg.Api.UnitTests\FiscalNg.Api.UnitTests.csproj", "{DE02FEEB-E75B-4DC4-8C1D-A2943C2F31CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiscalNg.Base.Tests", "FiscalNg.Base.Tests\FiscalNg.Base.Tests.csproj", "{37CF2FBF-255C-414B-A238-114B215B131F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiscalNg.Base.Tests", "FiscalNg.Base.Tests\FiscalNg.Base.Tests.csproj", "{37CF2FBF-255C-414B-A238-114B215B131F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiscalNg.Database.AccessLog", "FiscalNg.Database.AccessLog\FiscalNg.Database.AccessLog.csproj", "{90D6C628-2E04-479D-A426-8B84755327DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{37CF2FBF-255C-414B-A238-114B215B131F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37CF2FBF-255C-414B-A238-114B215B131F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37CF2FBF-255C-414B-A238-114B215B131F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D6C628-2E04-479D-A426-8B84755327DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D6C628-2E04-479D-A426-8B84755327DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D6C628-2E04-479D-A426-8B84755327DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D6C628-2E04-479D-A426-8B84755327DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +86,7 @@ Global
 		{567AB199-086A-42F8-8C31-2E91309B4567} = {6ED635FA-58FB-4070-9366-7BF6401D70D6}
 		{DE02FEEB-E75B-4DC4-8C1D-A2943C2F31CC} = {6ED635FA-58FB-4070-9366-7BF6401D70D6}
 		{37CF2FBF-255C-414B-A238-114B215B131F} = {6ED635FA-58FB-4070-9366-7BF6401D70D6}
+		{90D6C628-2E04-479D-A426-8B84755327DE} = {A104468C-FCCF-40F3-8F4C-5461A1359DE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE5B90B9-AC1D-4C11-B3EF-20BB3AE7816E}
