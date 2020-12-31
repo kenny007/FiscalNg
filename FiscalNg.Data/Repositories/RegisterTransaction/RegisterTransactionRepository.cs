@@ -7,6 +7,7 @@ namespace FiscalNg.Data.Repositories.RegisterTransaction {
     /// <inheritdoc cref="IRegisterTransactionRepository" />
     public class RegisterTransactionRepository : IRegisterTransactionRepository {
         public RegisterTransactionRepository() { }
+        /// <inheritdoc />
         public async Task<RegisterTransactionDto> SetTransactionAsync(RegisterTransactionDto registerTransaction) {
             const string sql = @"INSERT INTO Invoices (
                                             InvoiceSum, 
