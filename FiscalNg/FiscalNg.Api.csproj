@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FiscalNg.Common\FiscalNg.Common.csproj" />
+    <ProjectReference Include="..\FiscalNg.Core\FiscalNg.Core.csproj" />
     <ProjectReference Include="..\FiscalNg.Database.AccessLog\FiscalNg.Database.AccessLog.csproj" />
   </ItemGroup>
 
